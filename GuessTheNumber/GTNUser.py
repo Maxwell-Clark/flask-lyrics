@@ -26,4 +26,6 @@ def chooseDifficulty():
     input('press space to begin')
     computerGuess(difficulty)
 
+
 chooseDifficulty()
+
