@@ -19,5 +19,11 @@ def computerGuess(x):
     
     print(f'You Stupid Human! The Computer can Guess any number! I AM VICTORIOUS!')
 
-computerGuess(50)
-        
+
+def chooseDifficulty():
+    difficulty = int(input(f'I can Guess any number. what is the max limit? Ex 1-100 input 100: '))
+    input(f'I will now pick a number between 1 - {difficulty}, Prepare to be amazed filthy Human.')
+    input('press space to begin')
+    computerGuess(difficulty)
+
+chooseDifficulty()
