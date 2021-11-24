@@ -3,6 +3,8 @@
 
 ## Project setup
 ## get into the flask-lyrics folder
+pip install flask
+pip install wtforms
 
 python app.py
 
