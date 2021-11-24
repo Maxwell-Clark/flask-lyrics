@@ -7,10 +7,10 @@ def findLyrics(songname, songartist):
     URL = f'https://api.lyrics.ovh/v1/{songartist}/{songname}'
     r = requests.get(url = URL)
     data = r.json()
-    print(data['lyrics'])
     if 'error' in data:
         return data['error']
     else:
+        print(data['lyrics'])
         return data['lyrics']
 
 
